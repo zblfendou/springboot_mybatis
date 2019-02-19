@@ -19,7 +19,7 @@ public class UserController {
     }
 
     @RequestMapping("/add.do")
-    public int add() {
+    public Long add() {
         User user = new User();
         user.setUsername("来自数据库第二条");
         user.setAge(33);
